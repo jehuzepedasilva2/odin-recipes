@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 10px
+  /* outline-style: solid;
+  outline-color: red; */
+}
+
+body {
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: 300px;
+}
+
+/* top | right | bottom | left */
+
+img, .desc, .ing, .steps {
+  border: 2px dashed red;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.desc {
+  margin-left: 650px;
+  text-align: end;
+}
+
+.ing {
+  margin: 0 1100px 0 100px;
+}
+
+.steps {
+  text-align: center;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.desc h3, .steps h3 {
+  margin-right: 300px;
+}

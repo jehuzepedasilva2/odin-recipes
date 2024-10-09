@@ -1,0 +1,44 @@
+/* * {
+  outline: 2px solid red;
+} */
+ /* NOTE: everything is box, uncomment the above to see */
+/* padding - usually used to add space to add background to an element
+  margin - goes around to space elements apart
+  height and width shape the inner box
+
+  inner box (actual container), padding (next layer out), border (next layer out), margin (final layer)
+ */
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.box {
+  border: 2px solid red;
+  padding-top: 100px;
+  width: 800px;
+  height: 100vh;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.smaller-box {
+  border: 2px dashed pink;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+ul li a {
+  color: rgb(236, 96, 119);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}

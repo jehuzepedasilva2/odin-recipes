@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline-color: red;
+  outline-style: solid; */
+}
+
+body {
+  text-align: center;
+  margin: 0 200px 10px;
+  font-family: "Merriweather";
+  border: 2px solid red;
+}
+
+h1, p, h3, ul, ol {
+  margin: 10px 300px 10px;
+  border: 2px dashed salmon;
+  border-radius: 10px;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
